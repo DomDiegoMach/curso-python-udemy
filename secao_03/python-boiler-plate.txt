@@ -1,0 +1,70 @@
+python3 -m venv .venv
+botao-direito-dentro-da-pasta
+	abrir-configurações-da-pasta
+dentro da pasta .vscode colar o seguinte json:
+{
+    "window.zoomLevel": 1,
+      "editor.fontSize": 12,
+      "code-runner.ignoreSelection": true,
+      "code-runner.runInTerminal": true,
+  
+      "python.linting.mypyEnabled": true,
+      "python.linting.flake8Enabled": true,
+      "python.testing.unittestEnabled": true,
+  
+      "[python]": {
+          "editor.formatOnSave": true
+      }
+}
+
+. .venv/bin/activate 
+python3 -m venv .venv && source .venv/bin/activate
+deactivate
+
+pip install black 
+pip install wheel  
+pip install flake8
+pip install tabulate
+pip install rich
+pip install pytest
+pip install pytest-json
+pip install factory-boy
+pip install python-decouple==3.6
+
+https://twitter.com/misteriouspavao/status/1602751915003101185?s=20&t=ZirDXQ6QecJnbnMbGMJbTw
+
+python3 -m pip install -r dev-requirements.txt
+
+
+# Criar e iniciar o Ambiente Virtual
+python3 -m venv .venv && source .venv/bin/activate
+
+# Instalar as dependências do projeto
+pip install -r dev-requirements.txt
+
+# Executar os testes
+python -m pytest
+
+# Desativar  ambiente virtual
+deactivate
+
+python3 -m venv .venv && source .venv/bin/activate
+
+DDiego251297@321
+
+{
+    "window.zoomLevel": 0.35,
+    "editor.fontSize": 14,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "python.testing.pytestArgs": [],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.blackArgs": [
+        "-l 79"
+    ],
+    "python.formatting.provider": "black"
+}

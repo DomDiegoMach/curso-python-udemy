@@ -1,0 +1,18 @@
+-r requirements.txt
+
+wheel
+black
+flake8
+pytest
+pytest-json
+xmltodict
+factory-boy
+rich
+tabulate
+python-decouple
+beautifulsoup4
+parsel
+requests
+selenium
+beautifulsoup4
+pandas
