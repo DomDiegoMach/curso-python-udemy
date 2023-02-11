@@ -1,6 +1,6 @@
 {
-    "window.zoomLevel": 0.35,
-    "editor.fontSize": 14,
+    "window.zoomLevel": 0.45,
+    "editor.fontSize": 15,
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
     "python.testing.pytestArgs": [],
