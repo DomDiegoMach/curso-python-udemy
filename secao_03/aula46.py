@@ -1,6 +1,6 @@
 for i in range(10):
     if i == 2:
-        print("i é 2, pulando...")
+        print("(1)", "i é 2, pulando...")
         continue
 
     # if i == 8:
@@ -8,6 +8,6 @@ for i in range(10):
     #     break
 
     for j in range(1, 3):
-        print(i, j)
+        print("(2)", i, j)
 else:
-    print("For completo com sucesso!")
+    print("(3)", "For completo com sucesso!")
