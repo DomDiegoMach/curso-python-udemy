@@ -1,16 +1,18 @@
 {
-    "window.zoomLevel": 0.45,
-    "editor.fontSize": 15,
-    "code-runner.ignoreSelection": true,
-    "code-runner.runInTerminal": true,
-    "python.testing.pytestArgs": [],
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.formatting.blackArgs": [
-        "-l 79"
-    ],
-    "python.formatting.provider": "black"
+  "window.zoomLevel": 0.45,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.runInTerminal": true,
+  "python.testing.pytestArgs": [],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.blackArgs": ["-l 79"],
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.formatOnSave": true
+  }
 }
